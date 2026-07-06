@@ -1,0 +1,66 @@
+/* App.css */
+body {
+  margin: 0;
+  background-color: #0F172A; /* Koyu Slate Arka Plan */
+  color: #F8FAFC;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.dashboard-container {
+  min-height: 100vh;
+  background-color: #0F172A;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #1E293B;
+  margin-bottom: 30px;
+}
+
+.main-content {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.left-panel {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.right-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.bottom-cards {
+  display: flex;
+  gap: 24px;
+}
+
+.bottom-cards .card {
+  flex: 1;
+}
+
+.card {
+  background-color: #1E293B; /* Kart Arka Planı */
+  border-radius: 12px;
+  padding: 24px;
+  border: 1px solid #334155;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+  margin: 0;
+  color: #F8FAFC;
+}

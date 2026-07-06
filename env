@@ -1,0 +1,6 @@
+MONGO_URI=mongodb+srv://Qsmoz:Psco55966745@cluster0.nfl9a0z.mongodb.net/?appName=Cluster0
+
+AWS_ACCESS_KEY=access_key_id_example
+AWS_SECRET_KEY=secret_access_key_example
+BUCKET_NAME=trafficmind-arsiv-45-790304250151-eu-north-1-an
+REGION=eu-north-1
